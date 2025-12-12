@@ -13,3 +13,7 @@ El sistema asigna automáticamente los 3 segmentos:
 - Escalado (StandardScaler) + KMeans.
 - Interpretación automática del perfil de cada cluster.
 - Interfaz interactiva para clasificar nuevos clientes.
+
+## ▶️ Instalación
+```bash
+pip install -r requirements.txt
