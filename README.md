@@ -1,2 +1,15 @@
-# Segmentacion-Autom-tica-de-Clientes-con-KMeans
-Pipeline completo para subir un CSV real, detectar columnas numéricas, entrenar un modelo KMeans y clasificar clientes en: "Fiel", "Nuevo" o "Inactivo". Incluye interfaz interactiva con Gradio.
+# 👥 Segmentación de Clientes con KMeans
+
+Este proyecto permite subir un CSV real, detectar columnas numéricas y entrenar un modelo de **Segmentación de Clientes** usando KMeans.
+
+El sistema asigna automáticamente los 3 segmentos:
+- **Cliente FIEL**
+- **Cliente NUEVO**
+- **Cliente INACTIVO**
+
+## 🔍 Funcionalidades
+- Subida de CSV desde Colab.
+- Selección automática de columnas relevantes.
+- Escalado (StandardScaler) + KMeans.
+- Interpretación automática del perfil de cada cluster.
+- Interfaz interactiva para clasificar nuevos clientes.
