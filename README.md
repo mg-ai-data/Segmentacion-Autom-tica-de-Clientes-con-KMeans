@@ -1,19 +1,23 @@
-# 👥 Segmentación de Clientes con KMeans
+# 👥 Customer Segmentation with K-Means
 
-Este proyecto permite subir un CSV real, detectar columnas numéricas y entrenar un modelo de **Segmentación de Clientes** usando KMeans.
+This project allows users to upload a real CSV file, automatically detect numerical columns, and train a customer segmentation model using K-Means clustering.
 
-El sistema asigna automáticamente los 3 segmentos:
-- **Cliente FIEL**
-- **Cliente NUEVO**
-- **Cliente INACTIVO**
+The system automatically assigns customers to three segments:
 
-## 🔍 Funcionalidades
-- Subida de CSV desde Colab.
-- Selección automática de columnas relevantes.
-- Escalado (StandardScaler) + KMeans.
-- Interpretación automática del perfil de cada cluster.
-- Interfaz interactiva para clasificar nuevos clientes.
+- **Loyal Customer**
+- **New Customer**
+- **Inactive Customer**
 
-## ▶️ Instalación
+## 🔍 Features
+
+- CSV upload through a Colab-compatible interface
+- Automatic selection of relevant numerical columns
+- Feature scaling with `StandardScaler`
+- Customer segmentation using K-Means
+- Automatic interpretation of cluster profiles
+- Interactive interface for classifying new customers
+
+## ▶️ Installation
+
 ```bash
 pip install -r requirements.txt
